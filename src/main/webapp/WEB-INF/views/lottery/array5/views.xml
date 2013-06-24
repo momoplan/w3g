@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+	"http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	<definition name="array5/bySelf" extends="default_lottery">
+		<put-attribute name="title" value="排列五自选"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/array5/bySelf.jsp" />
+	</definition>
+	<definition name="array5/byAuto" extends="default_lottery">
+		<put-attribute name="title" value="排列五机选"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/array5/byAuto.jsp" />
+	</definition>
+</tiles-definitions>

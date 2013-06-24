@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+  <definition name="default" template="/WEB-INF/layouts/default.jsp">
+    <put-attribute name="header" value="/WEB-INF/views/header.jsp" />
+    <put-attribute name="footer" value="/WEB-INF/views/footer.jsp" />
+  </definition>
+  <definition name="default_user" template="/WEB-INF/layouts/default_user.jsp">
+    <put-attribute name="header" value="/WEB-INF/views/header.jsp" />
+    <put-attribute name="footer_user" value="/WEB-INF/views/footer_user.jsp" />
+  </definition>
+  <definition name="default_lottery" template="/WEB-INF/layouts/default_lottery.jsp">
+    <put-attribute name="header" value="/WEB-INF/views/header.jsp" />
+    <put-attribute name="footer_lottery" value="/WEB-INF/views/footer_lottery.jsp" />
+  </definition>
+  <definition name="public" template="/WEB-INF/layouts/default.jsp">
+    <put-attribute name="header" value="/WEB-INF/views/header.jsp" />
+    <put-attribute name="footer" value="/WEB-INF/views/footer.jsp" />
+  </definition>
+   <definition name="default_new" template="/WEB-INF/layouts/default_new.jsp">
+    <put-attribute name="header_new" value="/WEB-INF/views/header_new.jsp" />
+    <put-attribute name="footer_new" value="/WEB-INF/views/footer_new.jsp" />
+  </definition>
+  <definition name="default_cn976" template="/WEB-INF/layouts/default_cn976.jsp">
+    <put-attribute name="header_cn976" value="/WEB-INF/views/header_cn976.jsp" />
+    <put-attribute name="footer_cn976" value="/WEB-INF/views/footer_cn976.jsp" />
+  </definition>
+</tiles-definitions>

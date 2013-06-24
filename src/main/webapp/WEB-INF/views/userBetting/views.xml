@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+	"http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+
+<tiles-definitions>
+  <definition name="userBetting" extends="default_user">
+    <put-attribute name="title" value="投注查询"></put-attribute>
+    <put-attribute name="body" value="/WEB-INF/views/userBetting/userBetting.jsp" />
+  </definition>
+  <definition name="userBettingDetail" extends="default_user">
+    <put-attribute name="title" value="投注查询"></put-attribute>
+    <put-attribute name="body" value="/WEB-INF/views/userBetting/userBettingDetail.jsp" />
+  </definition>
+  <definition name="userWinning" extends="default_user">
+    <put-attribute name="title" value="中奖查询"></put-attribute>
+    <put-attribute name="body" value="/WEB-INF/views/userBetting/userWinning.jsp" />
+  </definition>
+  <definition name="userWinningDetail" extends="default_user">
+    <put-attribute name="title" value="中奖查询"></put-attribute>
+    <put-attribute name="body" value="/WEB-INF/views/userBetting/userWinningDetail.jsp" />
+  </definition>
+  <definition name="userAddNumber" extends="default_user">
+    <put-attribute name="title" value="追号查询"></put-attribute>
+    <put-attribute name="body" value="/WEB-INF/views/userBetting/userAddNumber.jsp" />
+  </definition>
+  <definition name="userAddNumberDetail" extends="default_user">
+    <put-attribute name="title" value="追号查询"></put-attribute>
+    <put-attribute name="body" value="/WEB-INF/views/userBetting/userAddNumberDetail.jsp" />
+  </definition>
+  <definition name="userGiveUpAddNumber" extends="default_user">
+    <put-attribute name="title" value="取消追号"></put-attribute>
+    <put-attribute name="body" value="/WEB-INF/views/userBetting/userGiveUpAddNumber.jsp" />
+  </definition>
+  <definition name="userGiveUpAddNumberResult" extends="default_user">
+    <put-attribute name="title" value="取消追号"></put-attribute>
+    <put-attribute name="body" value="/WEB-INF/views/userBetting/userGiveUpAddNumberResult.jsp" />
+  </definition>
+  <definition name="senderPresent" extends="default_user">
+    <put-attribute name="title" value="赠送查询"></put-attribute>
+    <put-attribute name="body" value="/WEB-INF/views/userBetting/senderPresent.jsp" />
+  </definition>
+  <definition name="senderPresentDetail" extends="default_user">
+    <put-attribute name="title" value="赠送查询"></put-attribute>
+    <put-attribute name="body" value="/WEB-INF/views/userBetting/senderPresentDetail.jsp" />
+  </definition>
+  <definition name="reciverPresent" extends="default_user">
+    <put-attribute name="title" value="被赠送查询"></put-attribute>
+    <put-attribute name="body" value="/WEB-INF/views/userBetting/reciverPresent.jsp" />
+  </definition>
+  <definition name="reciverPresentDetail" extends="default_user">
+    <put-attribute name="title" value="被赠送查询"></put-attribute>
+    <put-attribute name="body" value="/WEB-INF/views/userBetting/reciverPresentDetail.jsp" />
+  </definition>
+</tiles-definitions>

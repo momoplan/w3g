@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+	"http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	<definition name="array3/byDirect" extends="default_lottery">
+		<put-attribute name="title" value="排列三直选"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/array3/byDirect.jsp" />
+	</definition>
+	<definition name="array3/byAuto" extends="default_lottery">
+		<put-attribute name="title" value="排列三机选"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/array3/byAuto.jsp" />
+	</definition>
+	<definition name="array3/byDirectHeZhi" extends="default_lottery">
+		<put-attribute name="title" value="排列三和值"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/array3/byDirectHeZhi.jsp" />
+	</definition>
+	<definition name="array3/byGroup3Self" extends="default_lottery">
+		<put-attribute name="title" value="排列三组三"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/array3/byGroup3Self.jsp" />
+	</definition>
+	<definition name="array3/byGroup6Self" extends="default_lottery">
+		<put-attribute name="title" value="排列三组六"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/array3/byGroup6Self.jsp" />
+	</definition>
+</tiles-definitions>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+	"http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	<definition name="guangDongHappyTenMinutes/bySelectOneNumberSelf" extends="default_lottery">
+		<put-attribute name="title" value="广东快乐十分选一数投"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/guangDongHappyTenMinutes/bySelectOneNumberSelf.jsp" />
+	</definition>
+	<definition name="guangDongHappyTenMinutes/bySelectOneRedSelf" extends="default_lottery">
+		<put-attribute name="title" value="广东快乐十分选一红投"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/guangDongHappyTenMinutes/bySelectOneRedSelf.jsp" />
+	</definition>
+	<definition name="guangDongHappyTenMinutes/byOptionTwoSelf" extends="default_lottery">
+		<put-attribute name="title" value="广东快乐十分任选二"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/guangDongHappyTenMinutes/byOptionTwoSelf.jsp" />
+	</definition>
+	<definition name="guangDongHappyTenMinutes/byOptionThreeSelf" extends="default_lottery">
+		<put-attribute name="title" value="广东快乐十分任选三"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/guangDongHappyTenMinutes/byOptionThreeSelf.jsp" />
+	</definition>
+	<definition name="guangDongHappyTenMinutes/byOptionFourSelf" extends="default_lottery">
+		<put-attribute name="title" value="广东快乐十分任选四"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/guangDongHappyTenMinutes/byOptionFourSelf.jsp" />
+	</definition>
+	<definition name="guangDongHappyTenMinutes/byOptionFiveSelf" extends="default_lottery">
+		<put-attribute name="title" value="广东快乐十分任选五"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/guangDongHappyTenMinutes/byOptionFiveSelf.jsp" />
+	</definition>
+	<definition name="guangDongHappyTenMinutes/bySelectTwoLinkDirectSelf" extends="default_lottery">
+		<put-attribute name="title" value="广东快乐十分选二连直"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/guangDongHappyTenMinutes/bySelectTwoLinkDirectSelf.jsp" />
+	</definition>
+	<definition name="guangDongHappyTenMinutes/byDirectSelectForwardThreeSelf" extends="default_lottery">
+		<put-attribute name="title" value="广东快乐十分直选前三"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/guangDongHappyTenMinutes/byDirectSelectForwardThreeSelf.jsp" />
+	</definition>
+	<definition name="guangDongHappyTenMinutes/bySelectTwoLinkGroupSelf" extends="default_lottery">
+		<put-attribute name="title" value="广东快乐十分选二连组"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/guangDongHappyTenMinutes/bySelectTwoLinkGroupSelf.jsp" />
+	</definition>
+	<definition name="guangDongHappyTenMinutes/byGroupSelectForwardThreeSelf" extends="default_lottery">
+		<put-attribute name="title" value="广东快乐十分组选前三"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/guangDongHappyTenMinutes/byGroupSelectForwardThreeSelf.jsp" />
+	</definition>
+	<definition name="guangDongHappyTenMinutes/byOptionTwoDanTuoSelf" extends="default_lottery">
+		<put-attribute name="title" value="广东快乐十分任选二胆拖"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/guangDongHappyTenMinutes/byOptionTwoDanTuoSelf.jsp" />
+	</definition>
+	<definition name="guangDongHappyTenMinutes/byOptionThreeDanTuoSelf" extends="default_lottery">
+		<put-attribute name="title" value="广东快乐十分任选三胆拖"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/guangDongHappyTenMinutes/byOptionThreeDanTuoSelf.jsp" />
+	</definition>
+	<definition name="guangDongHappyTenMinutes/byOptionFourDanTuoSelf" extends="default_lottery">
+		<put-attribute name="title" value="广东快乐十分任选四胆拖"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/guangDongHappyTenMinutes/byOptionFourDanTuoSelf.jsp" />
+	</definition>
+	<definition name="guangDongHappyTenMinutes/byOptionFiveDanTuoSelf" extends="default_lottery">
+		<put-attribute name="title" value="广东快乐十分任选五胆拖"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/guangDongHappyTenMinutes/byOptionFiveDanTuoSelf.jsp" />
+	</definition>
+	<definition name="guangDongHappyTenMinutes/bySelectTwoLinkDirectDanTuoSelf" extends="default_lottery">
+		<put-attribute name="title" value="广东快乐十分选二连直胆拖"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/guangDongHappyTenMinutes/bySelectTwoLinkDirectDanTuoSelf.jsp" />
+	</definition>
+	<definition name="guangDongHappyTenMinutes/bySelectTwoLinkGroupDanTuoSelf" extends="default_lottery">
+		<put-attribute name="title" value="广东快乐十分选二连组胆拖"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/guangDongHappyTenMinutes/bySelectTwoLinkGroupDanTuoSelf.jsp" />
+	</definition>
+	<definition name="guangDongHappyTenMinutes/byDirectSelectForwardThreeDanTuoSelf" extends="default_lottery">
+		<put-attribute name="title" value="广东快乐十分直选前三胆拖"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/guangDongHappyTenMinutes/byDirectSelectForwardThreeDanTuoSelf.jsp" />
+	</definition>
+	<definition name="guangDongHappyTenMinutes/byGroupSelectForwardThreeDanTuoSelf" extends="default_lottery">
+		<put-attribute name="title" value="广东快乐十分组选前三胆拖"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/guangDongHappyTenMinutes/byGroupSelectForwardThreeDanTuoSelf.jsp" />
+	</definition>
+	<definition name="guangDongHappyTenMinutes/bySelectOneNumberSingleAuto" extends="default_lottery">
+		<put-attribute name="title" value="广东快乐十分选一数投"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/guangDongHappyTenMinutes/bySelectOneNumberSingleAuto.jsp" />
+	</definition>
+	<definition name="guangDongHappyTenMinutes/bySelectOneRedSingleAuto" extends="default_lottery">
+		<put-attribute name="title" value="广东快乐十分选一红投"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/guangDongHappyTenMinutes/bySelectOneRedSingleAuto.jsp" />
+	</definition>
+	<definition name="guangDongHappyTenMinutes/byOptionTwoSingleAuto" extends="default_lottery">
+		<put-attribute name="title" value="广东快乐十分任选二"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/guangDongHappyTenMinutes/byOptionTwoSingleAuto.jsp" />
+	</definition>
+	<definition name="guangDongHappyTenMinutes/byOptionThreeSingleAuto" extends="default_lottery">
+		<put-attribute name="title" value="广东快乐十分任选三"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/guangDongHappyTenMinutes/byOptionThreeSingleAuto.jsp" />
+	</definition>
+	<definition name="guangDongHappyTenMinutes/byOptionFourSingleAuto" extends="default_lottery">
+		<put-attribute name="title" value="广东快乐十分任选四"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/guangDongHappyTenMinutes/byOptionFourSingleAuto.jsp" />
+	</definition>
+	<definition name="guangDongHappyTenMinutes/byOptionFiveSingleAuto" extends="default_lottery">
+		<put-attribute name="title" value="广东快乐十分任选五"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/guangDongHappyTenMinutes/byOptionFiveSingleAuto.jsp" />
+	</definition>
+	<definition name="guangDongHappyTenMinutes/bySelectTwoLinkDirectSingleAuto" extends="default_lottery">
+		<put-attribute name="title" value="广东快乐十分选二连直"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/guangDongHappyTenMinutes/bySelectTwoLinkDirectSingleAuto.jsp" />
+	</definition>
+	<definition name="guangDongHappyTenMinutes/bySelectTwoLinkGroupSingleAuto" extends="default_lottery">
+		<put-attribute name="title" value="广东快乐十分选二连组"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/guangDongHappyTenMinutes/bySelectTwoLinkGroupSingleAuto.jsp" />
+	</definition>
+	<definition name="guangDongHappyTenMinutes/byDirectSelectForwardThreeSingleAuto" extends="default_lottery">
+		<put-attribute name="title" value="广东快乐十分直选前三"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/guangDongHappyTenMinutes/byDirectSelectForwardThreeSingleAuto.jsp" />
+	</definition>
+	<definition name="guangDongHappyTenMinutes/byGroupSelectForwardThreeSingleAuto" extends="default_lottery">
+		<put-attribute name="title" value="广东快乐十分组选前三"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/guangDongHappyTenMinutes/byGroupSelectForwardThreeSingleAuto.jsp" />
+	</definition>
+</tiles-definitions>

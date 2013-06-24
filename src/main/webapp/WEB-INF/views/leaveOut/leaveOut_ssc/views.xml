@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+	"http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	
+	<definition name="leaveOut_ssc_1x" extends="default">
+		<put-attribute name="title" value="时时彩一星遗漏"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/leaveOut/leaveOut_ssc/leaveOut_ssc_1x.jsp" />
+	</definition>
+	<definition name="leaveOut_ssc_2xgx" extends="default">
+		<put-attribute name="title" value="时时彩二星组选遗漏"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/leaveOut/leaveOut_ssc/leaveOut_ssc_2xgx.jsp" />
+	</definition>
+	<definition name="leaveOut_ssc_2xdx" extends="default">
+		<put-attribute name="title" value="时时彩二星直选遗漏"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/leaveOut/leaveOut_ssc/leaveOut_ssc_2xdx.jsp" />
+	</definition>
+	<definition name="leaveOut_ssc_2xhz" extends="default">
+		<put-attribute name="title" value="时时彩二星和值遗漏"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/leaveOut/leaveOut_ssc/leaveOut_ssc_2xhz.jsp" />
+	</definition>
+	<definition name="leaveOut_ssc_3xdx" extends="default">
+		<put-attribute name="title" value="时时彩三星直选遗漏"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/leaveOut/leaveOut_ssc/leaveOut_ssc_3xdx.jsp" />
+	</definition>
+	<definition name="leaveOut_ssc_5xdx" extends="default">
+		<put-attribute name="title" value="时时彩五星直选遗漏"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/leaveOut/leaveOut_ssc/leaveOut_ssc_5xdx.jsp" />
+	</definition>
+	<definition name="leaveOut_ssc_5xtx" extends="default">
+		<put-attribute name="title" value="时时彩五星通选遗漏"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/leaveOut/leaveOut_ssc/leaveOut_ssc_5xtx.jsp" />
+	</definition>
+	<definition name="leaveOut_ssc_dxds" extends="default">
+		<put-attribute name="title" value="时时彩大小单双遗漏"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/leaveOut/leaveOut_ssc/leaveOut_ssc_dxds.jsp" />
+	</definition>
+</tiles-definitions>

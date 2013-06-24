@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+	"http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	<definition name="select5From22/bySelf" extends="default_lottery">
+		<put-attribute name="title" value="22选5自选"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/select5From22/bySelf.jsp" />
+	</definition>
+	<definition name="select5From22/byAuto" extends="default_lottery">
+		<put-attribute name="title" value="22选5机选"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/select5From22/byAuto.jsp" />
+	</definition>
+	<definition name="select5From22/byDanTuo" extends="default_lottery">
+		<put-attribute name="title" value="22选5胆拖"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/select5From22/byDanTuo.jsp" />
+	</definition>
+</tiles-definitions>

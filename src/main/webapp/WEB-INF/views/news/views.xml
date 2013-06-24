@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+	"http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+
+<tiles-definitions>
+  <definition name="newsList" extends="default">
+    <put-attribute name="title" value="资讯中心"></put-attribute>
+    <put-attribute name="body" value="/WEB-INF/views/news/newsList.jsp" />
+  </definition>
+  <definition name="newsContent" extends="default">
+    <put-attribute name="title" value="资讯中心"></put-attribute>
+    <put-attribute name="body" value="/WEB-INF/views/news/newsContent.jsp" />
+  </definition>
+</tiles-definitions>

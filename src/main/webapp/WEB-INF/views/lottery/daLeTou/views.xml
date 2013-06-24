@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+	"http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	<definition name="daLeTou/bySelf" extends="default_lottery">
+		<put-attribute name="title" value="大乐透自选"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/daLeTou/bySelf.jsp" />
+	</definition>
+	<definition name="daLeTou/byAuto" extends="default_lottery">
+		<put-attribute name="title" value="大乐透机选"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/daLeTou/byAuto.jsp" />
+	</definition>
+	<definition name="daLeTou/byDanTuo" extends="default_lottery">
+		<put-attribute name="title" value="大乐透胆拖"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/daLeTou/byDanTuo.jsp" />
+	</definition>
+	<definition name="daLeTou/byShengXiaoLe" extends="default_lottery">
+		<put-attribute name="title" value="大乐透12选2"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/daLeTou/byShengXiaoLe.jsp" />
+	</definition>
+</tiles-definitions>

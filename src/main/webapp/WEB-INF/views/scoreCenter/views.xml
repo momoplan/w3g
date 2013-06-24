@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+	"http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	
+	<definition name="scoreCenter" extends="default_user">
+		<put-attribute name="title" value="我的积分"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/scoreCenter/scoreCenter.jsp" />
+	</definition>
+	<definition name="howScore" extends="default_user">
+		<put-attribute name="title" value="我的积分"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/scoreCenter/howScore.jsp" />
+	</definition>
+	<definition name="transScoreResult" extends="default_user">
+		<put-attribute name="title" value="我的积分"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/scoreCenter/transScoreResult.jsp" />
+	</definition>
+	<definition name="transScoreFail" extends="default_user">
+		<put-attribute name="title" value="我的积分"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/scoreCenter/transScoreFail.jsp" />
+	</definition>
+</tiles-definitions>

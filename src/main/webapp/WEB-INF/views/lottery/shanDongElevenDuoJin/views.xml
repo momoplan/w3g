@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+	"http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	<definition name="shanDongElevenDuoJin/byOptionOneSelf" extends="default_lottery">
+		<put-attribute name="title" value="十一运夺金任选一"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shanDongElevenDuoJin/byOptionOneSelf.jsp" />
+	</definition>
+	<definition name="shanDongElevenDuoJin/byOptionOneAuto" extends="default_lottery">
+		<put-attribute name="title" value="十一运夺金任选一"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shanDongElevenDuoJin/byOptionOneAuto.jsp" />
+	</definition>
+	<definition name="shanDongElevenDuoJin/byOptionTwoSelf" extends="default_lottery">
+		<put-attribute name="title" value="十一运夺金任选二"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shanDongElevenDuoJin/byOptionTwoSelf.jsp" />
+	</definition>
+	<definition name="shanDongElevenDuoJin/byOptionTwoAuto" extends="default_lottery">
+		<put-attribute name="title" value="十一运夺金任选二"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shanDongElevenDuoJin/byOptionTwoAuto.jsp" />
+	</definition>
+	<definition name="shanDongElevenDuoJin/byOptionThreeSelf" extends="default_lottery">
+		<put-attribute name="title" value="十一运夺金任选三"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shanDongElevenDuoJin/byOptionThreeSelf.jsp" />
+	</definition>
+	<definition name="shanDongElevenDuoJin/byOptionThreeAuto" extends="default_lottery">
+		<put-attribute name="title" value="十一运夺金任选三"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shanDongElevenDuoJin/byOptionThreeAuto.jsp" />
+	</definition>
+	<definition name="shanDongElevenDuoJin/byOptionFourSelf" extends="default_lottery">
+		<put-attribute name="title" value="十一运夺金任选四"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shanDongElevenDuoJin/byOptionFourSelf.jsp" />
+	</definition>
+	<definition name="shanDongElevenDuoJin/byOptionFourAuto" extends="default_lottery">
+		<put-attribute name="title" value="十一运夺金任选四"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shanDongElevenDuoJin/byOptionFourAuto.jsp" />
+	</definition>
+	<definition name="shanDongElevenDuoJin/byOptionFiveSelf" extends="default_lottery">
+		<put-attribute name="title" value="十一运夺金任选五"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shanDongElevenDuoJin/byOptionFiveSelf.jsp" />
+	</definition>
+	<definition name="shanDongElevenDuoJin/byOptionFiveAuto" extends="default_lottery">
+		<put-attribute name="title" value="十一运夺金任选五"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shanDongElevenDuoJin/byOptionFiveAuto.jsp" />
+	</definition>
+	<definition name="shanDongElevenDuoJin/byOptionSixSelf" extends="default_lottery">
+		<put-attribute name="title" value="十一运夺金任选六"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shanDongElevenDuoJin/byOptionSixSelf.jsp" />
+	</definition>
+	<definition name="shanDongElevenDuoJin/byOptionSixAuto" extends="default_lottery">
+		<put-attribute name="title" value="十一运夺金任选六"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shanDongElevenDuoJin/byOptionSixAuto.jsp" />
+	</definition>
+	<definition name="shanDongElevenDuoJin/byOptionSevenSelf" extends="default_lottery">
+		<put-attribute name="title" value="十一运夺金任选七"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shanDongElevenDuoJin/byOptionSevenSelf.jsp" />
+	</definition>
+	<definition name="shanDongElevenDuoJin/byOptionSevenAuto" extends="default_lottery">
+		<put-attribute name="title" value="十一运夺金任选七"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shanDongElevenDuoJin/byOptionSevenAuto.jsp" />
+	</definition>
+	<definition name="shanDongElevenDuoJin/byOptionEightSelf" extends="default_lottery">
+		<put-attribute name="title" value="十一运夺金任选八"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shanDongElevenDuoJin/byOptionEightSelf.jsp" />
+	</definition>
+	<definition name="shanDongElevenDuoJin/byOptionEightAuto" extends="default_lottery">
+		<put-attribute name="title" value="十一运夺金任选八"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shanDongElevenDuoJin/byOptionEightAuto.jsp" />
+	</definition>
+	<definition name="shanDongElevenDuoJin/byOptionTwoDanTuo" extends="default_lottery">
+		<put-attribute name="title" value="十一运夺金任选二胆拖"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shanDongElevenDuoJin/byOptionTwoDanTuo.jsp" />
+	</definition>
+	<definition name="shanDongElevenDuoJin/byOptionThreeDanTuo" extends="default_lottery">
+		<put-attribute name="title" value="十一运夺金任选三胆拖"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shanDongElevenDuoJin/byOptionThreeDanTuo.jsp" />
+	</definition>
+	<definition name="shanDongElevenDuoJin/byOptionFourDanTuo" extends="default_lottery">
+		<put-attribute name="title" value="十一运夺金任选四胆拖"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shanDongElevenDuoJin/byOptionFourDanTuo.jsp" />
+	</definition>
+	<definition name="shanDongElevenDuoJin/byOptionFiveDanTuo" extends="default_lottery">
+		<put-attribute name="title" value="十一运夺金任选五胆拖"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shanDongElevenDuoJin/byOptionFiveDanTuo.jsp" />
+	</definition>
+	<definition name="shanDongElevenDuoJin/byOptionSixDanTuo" extends="default_lottery">
+		<put-attribute name="title" value="十一运夺金任选六胆拖"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shanDongElevenDuoJin/byOptionSixDanTuo.jsp" />
+	</definition>
+	<definition name="shanDongElevenDuoJin/byOptionSevenDanTuo" extends="default_lottery">
+		<put-attribute name="title" value="十一运夺金任选七胆拖"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shanDongElevenDuoJin/byOptionSevenDanTuo.jsp" />
+	</definition>
+	<definition name="shanDongElevenDuoJin/byForwardTwoGroupSelectDanTuo" extends="default_lottery">
+		<put-attribute name="title" value="十一运夺金前二组选胆拖"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shanDongElevenDuoJin/byForwardTwoGroupSelectDanTuo.jsp" />
+	</definition>
+	<definition name="shanDongElevenDuoJin/byForwardThreeGroupSelectDanTuo" extends="default_lottery">
+		<put-attribute name="title" value="十一运夺金前三组选胆拖"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shanDongElevenDuoJin/byForwardThreeGroupSelectDanTuo.jsp" />
+	</definition>
+	<definition name="shanDongElevenDuoJin/byForwardTwoGroupSelect" extends="default_lottery">
+		<put-attribute name="title" value="十一运夺金前二组选"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shanDongElevenDuoJin/byForwardTwoGroupSelect.jsp" />
+	</definition>
+	<definition name="shanDongElevenDuoJin/byForwardThreeGroupSelect" extends="default_lottery">
+		<put-attribute name="title" value="十一运夺金前三组选"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shanDongElevenDuoJin/byForwardThreeGroupSelect.jsp" />
+	</definition>
+	<definition name="shanDongElevenDuoJin/byForwardTwoDirectSelect" extends="default_lottery">
+		<put-attribute name="title" value="十一运夺金前二直选"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shanDongElevenDuoJin/byForwardTwoDirectSelect.jsp" />
+	</definition>
+	<definition name="shanDongElevenDuoJin/byForwardThreeDirectSelect" extends="default_lottery">
+		<put-attribute name="title" value="十一运夺金前三直选"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shanDongElevenDuoJin/byForwardThreeDirectSelect.jsp" />
+	</definition>
+</tiles-definitions>

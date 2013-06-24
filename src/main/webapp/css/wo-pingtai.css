@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body,div,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,iframe,form,cite,input,textarea,em,i,ins{margin:0;padding:0;font-style:normal;font-size:14px}
+ul,ol,dl,dt,dd{list-style:none}
+img{border:none;vertical-align:middle}
+body{font-size:12px; color:#333;font-family:"微软雅黑","宋体",Arial, Helvetica, sans-serif;}
+.wo-wrap{ width:562px; background:#fff;font-family:"微软雅黑","宋体",Arial, Helvetica, sans-serif;}
+.wo-wrap h2{ background:url(../images/h2-bg.jpg) repeat-x; line-height:28px; height:28px; padding-left:12px; font-size:16px; color:#445055; font-weight:bold;}
+.wo-btn a{ display:block; width:280px; height:37px; line-height:37px; text-align:center; color:#fff; font-size:20px; background:url(../images/wo-btn.jpg) no-repeat; text-decoration:none; margin:0 0 15px 15px;}
+.wo-wrap h3.gongneng{ height:40px; line-height:40px; margin-top:15px;  padding-left:15px; font-size:14px; font-weight:bold; background:none; border:none; color:#000;}
+.wo-xu{ height:2px;background:url(../images/wo-xu.jpg) repeat-x; margin-bottom:3px;}
+.wo-wrap p{ line-height:25px; padding-left:27px; font-size:14px; background:url(../images/duihao.gif) no-repeat left 7px; margin-left:18px;color:#000;}
+.wo-wrap p span{ color:#F28B0A;}
+.wo-wrap .pro{ padding:10px 175px 10px 15px; line-height:25px; font-size:14px; color:#000; }

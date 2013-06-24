@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+	"http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	<definition name="shiShiCai/byOneStarSelf" extends="default_lottery">
+		<put-attribute name="title" value="时时彩一星"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shiShiCai/byOneStarSelf.jsp" />
+	</definition>
+	<definition name="shiShiCai/byOneStarAuto" extends="default_lottery">
+		<put-attribute name="title" value="时时彩一星"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shiShiCai/byOneStarAuto.jsp" />
+	</definition>
+	<definition name="shiShiCai/byTwoStarDirect" extends="default_lottery">
+		<put-attribute name="title" value="时时彩二星"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shiShiCai/byTwoStarDirect.jsp" />
+	</definition>
+	<definition name="shiShiCai/byTwoStarAuto" extends="default_lottery">
+		<put-attribute name="title" value="时时彩二星"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shiShiCai/byTwoStarAuto.jsp" />
+	</definition>
+	<definition name="shiShiCai/byTwoStarGroup" extends="default_lottery">
+		<put-attribute name="title" value="时时彩二星"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shiShiCai/byTwoStarGroup.jsp" />
+	</definition>
+	<definition name="shiShiCai/byTwoStarHeZhi" extends="default_lottery">
+		<put-attribute name="title" value="时时彩二星"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shiShiCai/byTwoStarHeZhi.jsp" />
+	</definition>
+	<definition name="shiShiCai/byThreeStarDirect" extends="default_lottery">
+		<put-attribute name="title" value="时时彩三星"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shiShiCai/byThreeStarDirect.jsp" />
+	</definition>
+	<definition name="shiShiCai/byThreeStarAuto" extends="default_lottery">
+		<put-attribute name="title" value="时时彩三星"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shiShiCai/byThreeStarAuto.jsp" />
+	</definition>
+	<definition name="shiShiCai/byThreeStarGroup3" extends="default_lottery">
+		<put-attribute name="title" value="时时彩三星"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shiShiCai/byThreeStarGroup3.jsp" />
+	</definition>
+	<definition name="shiShiCai/byThreeStarGroup6" extends="default_lottery">
+		<put-attribute name="title" value="时时彩三星"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shiShiCai/byThreeStarGroup6.jsp" />
+	</definition>
+	<definition name="shiShiCai/byFiveStarDirect" extends="default_lottery">
+		<put-attribute name="title" value="时时彩五星"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shiShiCai/byFiveStarDirect.jsp" />
+	</definition>
+	<definition name="shiShiCai/byFiveStarAuto" extends="default_lottery">
+		<put-attribute name="title" value="时时彩五星"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shiShiCai/byFiveStarAuto.jsp" />
+	</definition>
+	<definition name="shiShiCai/byFiveStarTongSelf" extends="default_lottery">
+		<put-attribute name="title" value="时时彩五星"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shiShiCai/byFiveStarTongSelf.jsp" />
+	</definition>
+	<definition name="shiShiCai/byDaXiaoDanShuangSelf" extends="default_lottery">
+		<put-attribute name="title" value="时时彩五星"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/shiShiCai/byDaXiaoDanShuangSelf.jsp" />
+	</definition>
+</tiles-definitions>

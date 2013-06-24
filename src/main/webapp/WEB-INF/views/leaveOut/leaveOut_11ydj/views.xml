@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+	"http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	
+	<definition name="leaveOut_11ydj_rx2" extends="default">
+		<put-attribute name="title" value="十一运夺金任选二遗漏"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/leaveOut/leaveOut_11ydj/leaveOut_11ydj_rx2.jsp" />
+	</definition>
+	<definition name="leaveOut_11ydj_rx3" extends="default">
+		<put-attribute name="title" value="十一运夺金任选三遗漏"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/leaveOut/leaveOut_11ydj/leaveOut_11ydj_rx3.jsp" />
+	</definition>
+	<definition name="leaveOut_11ydj_rx4" extends="default">
+		<put-attribute name="title" value="十一运夺金任选四遗漏"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/leaveOut/leaveOut_11ydj/leaveOut_11ydj_rx4.jsp" />
+	</definition>
+	<definition name="leaveOut_11ydj_rx5" extends="default">
+		<put-attribute name="title" value="十一运夺金任选五遗漏"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/leaveOut/leaveOut_11ydj/leaveOut_11ydj_rx5.jsp" />
+	</definition>
+	<definition name="leaveOut_11ydj_rx6" extends="default">
+		<put-attribute name="title" value="十一运夺金任选六遗漏"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/leaveOut/leaveOut_11ydj/leaveOut_11ydj_rx6.jsp" />
+	</definition>
+	<definition name="leaveOut_11ydj_rx7" extends="default">
+		<put-attribute name="title" value="十一运夺金任选七遗漏"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/leaveOut/leaveOut_11ydj/leaveOut_11ydj_rx7.jsp" />
+	</definition>
+	<definition name="leaveOut_11ydj_rx8" extends="default">
+		<put-attribute name="title" value="十一运夺金任选八遗漏"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/leaveOut/leaveOut_11ydj/leaveOut_11ydj_rx8.jsp" />
+	</definition>
+</tiles-definitions>

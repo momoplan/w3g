@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+	"http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+
+<tiles-definitions>
+  <definition name="chargeCenter" extends="default">
+    <put-attribute name="title" value="充值中心"></put-attribute>
+    <put-attribute name="body" value="/WEB-INF/views/chargeCenter/chargeCenter.jsp" />
+  </definition>
+  <definition name="chargeBankPayment" extends="default_user">
+    <put-attribute name="title" value="银行转账"></put-attribute>
+    <put-attribute name="body" value="/WEB-INF/views/chargeCenter/chargeBankPayment.jsp" />
+  </definition>
+  <definition name="chargeMobileCard" extends="default_user">
+    <put-attribute name="title" value="手机卡充值"></put-attribute>
+    <put-attribute name="body" value="/WEB-INF/views/chargeCenter/chargeMobileCard.jsp" />
+  </definition>
+  <definition name="chargeMobileCard_DX" extends="default_user">
+    <put-attribute name="title" value="电信卡充值"></put-attribute>
+    <put-attribute name="body" value="/WEB-INF/views/chargeCenter/chargeMobileCard_DX.jsp" />
+  </definition>
+  <definition name="chargeMobileCard_LT" extends="default_user">
+    <put-attribute name="title" value="联通卡充值"></put-attribute>
+    <put-attribute name="body" value="/WEB-INF/views/chargeCenter/chargeMobileCard_LT.jsp" />
+  </definition>
+  <definition name="chargeMobileCard_YD" extends="default_user">
+    <put-attribute name="title" value="移动卡充值"></put-attribute>
+    <put-attribute name="body" value="/WEB-INF/views/chargeCenter/chargeMobileCard_YD.jsp" />
+  </definition>
+  <definition name="chargeAlipay_Wap" extends="default_user">
+    <put-attribute name="title" value="支付宝wap充值"></put-attribute>
+    <put-attribute name="body" value="/WEB-INF/views/chargeCenter/chargeAlipay_Wap.jsp" />
+  </definition>
+  <definition name="chargeAlipay_KJ" extends="default_user">
+    <put-attribute name="title" value="支付宝快捷充值"></put-attribute>
+    <put-attribute name="body" value="/WEB-INF/views/chargeCenter/chargeAlipay_KJ.jsp" />
+  </definition>
+  <definition name="chargeUnionPay" extends="default_user">
+    <put-attribute name="title" value="银联语音充值"></put-attribute>
+    <put-attribute name="body" value="/WEB-INF/views/chargeCenter/chargeUnionPay.jsp" />
+  </definition>
+  <definition name="chargeUnionPay_DNA" extends="default_user">
+    <put-attribute name="title" value="银联语音充值"></put-attribute>
+    <put-attribute name="body" value="/WEB-INF/views/chargeCenter/chargeUnionPay_DNA.jsp" />
+  </definition>
+  <definition name="chargeResult" extends="default_user">
+    <put-attribute name="title" value="账户充值"></put-attribute>
+    <put-attribute name="body" value="/WEB-INF/views/chargeCenter/chargeResult.jsp" />
+  </definition>
+  <definition name="chargeFail" extends="default_user">
+    <put-attribute name="title" value="账户充值"></put-attribute>
+    <put-attribute name="body" value="/WEB-INF/views/chargeCenter/chargeFail.jsp" />
+  </definition>
+  <definition name="chargeAlipayChannel" extends="default_user">
+    <put-attribute name="title" value="账户充值"></put-attribute>
+    <put-attribute name="body" value="/WEB-INF/views/chargeCenter/chargeAlipayChannel.jsp" />
+  </definition>
+  <definition name="chargeUnify_Wap" extends="default_user">
+    <put-attribute name="title" value="联动优势wap充值"></put-attribute>
+    <put-attribute name="body" value="/WEB-INF/views/chargeCenter/chargeUnify_Wap.jsp" />
+  </definition>
+  <definition name="chargeUnify_MobileFare" extends="default_user">
+    <put-attribute name="title" value="联动优势手机话费充值"></put-attribute>
+    <put-attribute name="body" value="/WEB-INF/views/chargeCenter/chargeUnify_MobileFare.jsp" />
+  </definition>
+</tiles-definitions>

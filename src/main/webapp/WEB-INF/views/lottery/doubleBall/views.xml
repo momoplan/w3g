@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+	"http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	<definition name="doubleBall/bySelf" extends="default_lottery">
+		<put-attribute name="title" value="双色球自选"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/doubleBall/bySelf.jsp" />
+	</definition>
+	<definition name="doubleBall/byAuto" extends="default_lottery">
+		<put-attribute name="title" value="双色球机选"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/doubleBall/byAuto.jsp" />
+	</definition>
+	<definition name="doubleBall/byDanTuo" extends="default_lottery">
+		<put-attribute name="title" value="双色球胆拖"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/doubleBall/byDanTuo.jsp" />
+	</definition>
+</tiles-definitions>

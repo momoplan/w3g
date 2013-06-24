@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+	"http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+
+<tiles-definitions>
+  <definition name="winInfoCenter" extends="default">
+    <put-attribute name="title" value="彩票开奖"></put-attribute>
+    <put-attribute name="body" value="/WEB-INF/views/winInfoCenter/winInfoCenter.jsp" />
+  </definition>
+  <definition name="winInfoHistory" extends="default">
+    <put-attribute name="title" value="历史开奖"></put-attribute>
+    <put-attribute name="body" value="/WEB-INF/views/winInfoCenter/winInfoHistory.jsp" />
+  </definition>
+  <definition name="winInfoDetail" extends="default">
+    <put-attribute name="title" value="开奖详情"></put-attribute>
+    <put-attribute name="body" value="/WEB-INF/views/winInfoCenter/winInfoDetail.jsp" />
+  </definition>
+  <definition name="jingCaiSaiGuo" extends="default">
+    <put-attribute name="title" value="开奖详情"></put-attribute>
+    <put-attribute name="body" value="/WEB-INF/views/winInfoCenter/jingCaiSaiGuo.jsp" />
+  </definition>
+</tiles-definitions>

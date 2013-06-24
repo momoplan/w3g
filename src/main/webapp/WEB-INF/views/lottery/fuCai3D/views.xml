@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+	"http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	<definition name="fuCai3D/byDirect" extends="default_lottery">
+		<put-attribute name="title" value="福彩3D直选"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/fuCai3D/byDirect.jsp" />
+	</definition>
+	<definition name="fuCai3D/byAuto" extends="default_lottery">
+		<put-attribute name="title" value="福彩3D机选"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/fuCai3D/byAuto.jsp" />
+	</definition>
+	<definition name="fuCai3D/byGroup3Self" extends="default_lottery">
+		<put-attribute name="title" value="福彩3D组三自选"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/fuCai3D/byGroup3Self.jsp" />
+	</definition>
+	<definition name="fuCai3D/byGroup6Self" extends="default_lottery">
+		<put-attribute name="title" value="福彩3D组六自选"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/fuCai3D/byGroup6Self.jsp" />
+	</definition>
+	<definition name="fuCai3D/byDirectHeZhi" extends="default_lottery">
+		<put-attribute name="title" value="福彩3D直选和值"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/fuCai3D/byDirectHeZhi.jsp" />
+	</definition>
+	<definition name="fuCai3D/byGroup3HeZhi" extends="default_lottery">
+		<put-attribute name="title" value="福彩3D组三和值"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/fuCai3D/byGroup3HeZhi.jsp" />
+	</definition>
+	<definition name="fuCai3D/byGroup6HeZhi" extends="default_lottery">
+		<put-attribute name="title" value="福彩3D组六和值"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/fuCai3D/byGroup6HeZhi.jsp" />
+	</definition>
+	<definition name="fuCai3D/byDanTuo" extends="default_lottery">
+		<put-attribute name="title" value="福彩3D胆拖"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/fuCai3D/byDanTuo.jsp" />
+	</definition>
+</tiles-definitions>

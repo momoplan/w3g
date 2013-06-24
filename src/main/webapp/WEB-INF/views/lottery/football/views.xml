@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+	"http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	<definition name="football/byShengFuCai" extends="default_lottery">
+		<put-attribute name="title" value="胜负彩"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/football/byShengFuCai.jsp" />
+	</definition>
+	<definition name="football/byRenXuan9Chang" extends="default_lottery">
+		<put-attribute name="title" value="任选九场"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/football/byRenXuan9Chang.jsp" />
+	</definition>
+	<definition name="football/by6ChangBanQuanChang" extends="default_lottery">
+		<put-attribute name="title" value="六场半"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/football/by6ChangBanQuanChang.jsp" />
+	</definition>
+	<definition name="football/by4ChangJinQiu" extends="default_lottery">
+		<put-attribute name="title" value="四场进球"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/football/by4ChangJinQiu.jsp" />
+	</definition>
+	<definition name="football/dataAnalysis_Ranking" extends="default_lottery">
+		<put-attribute name="title" value="足彩数据分析"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/football/dataAnalysis_Ranking.jsp" />
+	</definition>
+	<definition name="football/dataAnalysis_History" extends="default_lottery">
+		<put-attribute name="title" value="足彩数据分析"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/football/dataAnalysis_History.jsp" />
+	</definition>
+	<definition name="football/dataAnalysis_YaPan" extends="default_lottery">
+		<put-attribute name="title" value="足彩数据分析"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/football/dataAnalysis_YaPan.jsp" />
+	</definition>
+	<definition name="football/dataAnalysis_OuPei" extends="default_lottery">
+		<put-attribute name="title" value="足彩数据分析"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/football/dataAnalysis_OuPei.jsp" />
+	</definition>
+</tiles-definitions>

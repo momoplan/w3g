@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+	"http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	
+	<definition name="trendChart_index" extends="default">
+		<put-attribute name="title" value="走势图"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/trendChart/trendChart_index.jsp" />
+	</definition>
+	<definition name="trendChart_ssq" extends="default">
+		<put-attribute name="title" value="双色球走势图"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/trendChart/trendChart_ssq.jsp" />
+	</definition>
+	<definition name="trendChart_11ydj" extends="default">
+		<put-attribute name="title" value="十一运夺金走势图"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/trendChart/trendChart_11ydj.jsp" />
+	</definition>
+	<definition name="trendChart_22x5" extends="default">
+		<put-attribute name="title" value="22选5走势图"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/trendChart/trendChart_22x5.jsp" />
+	</definition>
+	<definition name="trendChart_dlt" extends="default">
+		<put-attribute name="title" value="大乐透走势图"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/trendChart/trendChart_dlt.jsp" />
+	</definition>
+	<definition name="trendChart_fc3d" extends="default">
+		<put-attribute name="title" value="福彩3D走势图"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/trendChart/trendChart_fc3d.jsp" />
+	</definition>
+	<definition name="trendChart_gd11x5" extends="default">
+		<put-attribute name="title" value="广东11选5走势图"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/trendChart/trendChart_gd11x5.jsp" />
+	</definition>
+	<definition name="trendChart_gdkl10" extends="default">
+		<put-attribute name="title" value="广东快乐10分走势图"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/trendChart/trendChart_gdkl10.jsp" />
+	</definition>
+	<definition name="trendChart_jx11x5" extends="default">
+		<put-attribute name="title" value="江西11选5走势图"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/trendChart/trendChart_jx11x5.jsp" />
+	</definition>
+	<definition name="trendChart_pl3" extends="default">
+		<put-attribute name="title" value="排列三走势图"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/trendChart/trendChart_pl3.jsp" />
+	</definition>
+	<definition name="trendChart_pl5" extends="default">
+		<put-attribute name="title" value="排列五走势图"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/trendChart/trendChart_pl5.jsp" />
+	</definition>
+	<definition name="trendChart_qlc" extends="default">
+		<put-attribute name="title" value="七乐彩走势图"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/trendChart/trendChart_qlc.jsp" />
+	</definition>
+	<definition name="trendChart_qxc" extends="default">
+		<put-attribute name="title" value="七星彩走势图"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/trendChart/trendChart_qxc.jsp" />
+	</definition>
+</tiles-definitions>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+	"http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	<definition name="lotteryCenter" extends="default_lottery">
+		<put-attribute name="title" value="购彩大厅"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/lotteryCenter.jsp" />
+	</definition>
+	<definition name="betDetail" extends="default">
+		<put-attribute name="title" value="购彩确认"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/betDetail.jsp" />
+	</definition>
+	<definition name="gaoPinBetDetail" extends="default">
+		<put-attribute name="title" value="购彩确认"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/gaoPinBetDetail.jsp" />
+	</definition>
+	<definition name="zuCaiBetDetail" extends="default">
+		<put-attribute name="title" value="购彩确认"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/zuCaiBetDetail.jsp" />
+	</definition>
+	<definition name="jcBetDetail" extends="default">
+		<put-attribute name="title" value="购彩确认"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jcBetDetail.jsp" />
+	</definition>
+	<definition name="betResult" extends="default">
+		<put-attribute name="title" value="购彩结果"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/betResult.jsp" />
+	</definition>
+	<definition name="caseLot" extends="default">
+		<put-attribute name="title" value="发起合买"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/caseLot.jsp" />
+	</definition>
+	<definition name="present" extends="default">
+		<put-attribute name="title" value="彩票赠送"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/present.jsp" />
+	</definition>
+</tiles-definitions>

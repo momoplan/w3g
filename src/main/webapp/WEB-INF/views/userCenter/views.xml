@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+	"http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	<definition name="login" extends="default">
+		<put-attribute name="title" value="用户登录"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/userCenter/login.jsp" />
+	</definition>
+	<definition name="retrievePassWord" extends="default">
+		<put-attribute name="title" value="找回密码"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/userCenter/retrievePassWord.jsp" />
+	</definition>
+	<definition name="register" extends="default">
+		<put-attribute name="title" value="用户注册"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/userCenter/register.jsp" />
+	</definition>
+	<definition name="registerResult" extends="default">
+		<put-attribute name="title" value="用户注册"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/userCenter/registerResult.jsp" />
+	</definition>
+	<definition name="userProtocol" extends="default">
+		<put-attribute name="title" value="用户服务协议"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/userCenter/userProtocol.jsp" />
+	</definition>
+	<definition name="userCenter" extends="default">
+		<put-attribute name="title" value="用户中心"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/userCenter/userCenter.jsp" />
+	</definition>
+	<definition name="userAccount" extends="default_user">
+		<put-attribute name="title" value="账户余额"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/userCenter/userAccount.jsp" />
+	</definition>
+	<definition name="userAccountIndex" extends="default_user">
+		<put-attribute name="title" value="账户明细"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/userCenter/userAccountIndex.jsp" />
+	</definition>
+	<definition name="userAccountDetail" extends="default_user">
+		<put-attribute name="title" value="账户明细"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/userCenter/userAccountDetail.jsp" />
+	</definition>
+	<definition name="modifyPassWord" extends="default_user">
+		<put-attribute name="title" value="修改密码"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/userCenter/modifyPassWord.jsp" />
+	</definition>
+	<definition name="perfectUserInfo" extends="default_user">
+		<put-attribute name="title" value="完善信息"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/userCenter/perfectUserInfo.jsp" />
+	</definition>
+	<definition name="userInfo" extends="default_user">
+		<put-attribute name="title" value="完善信息"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/userCenter/userInfo.jsp" />
+	</definition>
+	<definition name="mobileBandingIndex" extends="default_user">
+		<put-attribute name="title" value="手机绑定"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/userCenter/mobileBandingIndex.jsp" />
+	</definition>
+	<definition name="mobileBandingMsg" extends="default_user">
+		<put-attribute name="title" value="手机绑定"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/userCenter/mobileBandingMsg.jsp" />
+	</definition>
+	<definition name="mobileBandingDetail" extends="default_user">
+		<put-attribute name="title" value="手机绑定"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/userCenter/mobileBandingDetail.jsp" />
+	</definition>
+</tiles-definitions>

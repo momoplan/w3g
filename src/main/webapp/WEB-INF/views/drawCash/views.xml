@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+	"http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	<definition name="drawCashIndex" extends="default_user">
+		<put-attribute name="title" value="用户提现"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/drawCash/drawCashIndex.jsp" />
+	</definition>
+	<definition name="drawCashDNA" extends="default_user">
+		<put-attribute name="title" value="用户提现"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/drawCash/drawCashDNA.jsp" />
+	</definition>
+	<definition name="drawCashDetail" extends="default_user">
+		<put-attribute name="title" value="用户提现"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/drawCash/drawCashDetail.jsp" />
+	</definition>
+	<definition name="drawCashResult" extends="default_user">
+		<put-attribute name="title" value="用户提现"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/drawCash/drawCashResult.jsp" />
+	</definition>
+	<definition name="drawCashFail" extends="default_user">
+		<put-attribute name="title" value="用户提现"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/drawCash/drawCashFail.jsp" />
+	</definition>
+	<definition name="drawCashHistory" extends="default_user">
+		<put-attribute name="title" value="提现记录"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/drawCash/drawCashHistory.jsp" />
+	</definition>
+</tiles-definitions>

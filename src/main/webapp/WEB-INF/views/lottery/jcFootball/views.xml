@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+	"http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	<definition name="jcFootball/jcFootball_SPF" extends="default_lottery">
+		<put-attribute name="title" value="竞彩足球胜平负"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jcFootball/jcFootball_SPF.jsp" />
+	</definition>
+	<definition name="jcFootball/jcFootball_RQSPF" extends="default_lottery">
+		<put-attribute name="title" value="竞彩足球让球胜平负"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jcFootball/jcFootball_RQSPF.jsp" />
+	</definition>
+	<definition name="jcFootball/jcFootball_BF" extends="default_lottery">
+		<put-attribute name="title" value="竞彩足球比分"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jcFootball/jcFootball_BF.jsp" />
+	</definition>
+	<definition name="jcFootball/jcFootball_ZJQ" extends="default_lottery">
+		<put-attribute name="title" value="竞彩足球总进球"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jcFootball/jcFootball_ZJQ.jsp" />
+	</definition>
+	<definition name="jcFootball/jcFootball_BQC" extends="default_lottery">
+		<put-attribute name="title" value="竞彩足球半全场"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jcFootball/jcFootball_BQC.jsp" />
+	</definition>
+	<definition name="jcFootball/jcFootballBetDetail" extends="default_lottery">
+		<put-attribute name="title" value="竞彩足球"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jcFootball/jcFootballBetDetail.jsp" />
+	</definition>
+	<definition name="jcFootball/dataAnalysis_Ranking" extends="default_lottery">
+		<put-attribute name="title" value="竞彩足球数据分析"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jcFootball/dataAnalysis_Ranking.jsp" />
+	</definition>
+	<definition name="jcFootball/dataAnalysis_History" extends="default_lottery">
+		<put-attribute name="title" value="竞彩足球数据分析"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jcFootball/dataAnalysis_History.jsp" />
+	</definition>
+	<definition name="jcFootball/dataAnalysis_YaPan" extends="default_lottery">
+		<put-attribute name="title" value="竞彩足球数据分析"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jcFootball/dataAnalysis_YaPan.jsp" />
+	</definition>
+	<definition name="jcFootball/dataAnalysis_OuPei" extends="default_lottery">
+		<put-attribute name="title" value="竞彩足球数据分析"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jcFootball/dataAnalysis_OuPei.jsp" />
+	</definition>
+</tiles-definitions>

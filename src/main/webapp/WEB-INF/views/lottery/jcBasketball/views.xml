@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+	"http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	<definition name="jcBasketball/jcBasketball_SF" extends="default_lottery">
+		<put-attribute name="title" value="竞彩篮球胜负"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jcBasketball/jcBasketball_SF.jsp" />
+	</definition>
+	<definition name="jcBasketball/jcBasketball_RFSF" extends="default_lottery">
+		<put-attribute name="title" value="竞彩篮球让分胜负"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jcBasketball/jcBasketball_RFSF.jsp" />
+	</definition>
+	<definition name="jcBasketball/jcBasketball_SFC" extends="default_lottery">
+		<put-attribute name="title" value="竞彩篮球胜分差"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jcBasketball/jcBasketball_SFC.jsp" />
+	</definition>
+	<definition name="jcBasketball/jcBasketball_DXF" extends="default_lottery">
+		<put-attribute name="title" value="竞彩篮球大小分"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jcBasketball/jcBasketball_DXF.jsp" />
+	</definition>
+	<definition name="jcBasketball/jcBasketballBetDetail" extends="default_lottery">
+		<put-attribute name="title" value="竞彩篮球"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jcBasketball/jcBasketballBetDetail.jsp" />
+	</definition>
+	<definition name="jcBasketball/dataAnalysis_Ranking" extends="default_lottery">
+		<put-attribute name="title" value="竞彩篮球数据分析"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jcBasketball/dataAnalysis_Ranking.jsp" />
+	</definition>
+	<definition name="jcBasketball/dataAnalysis_History" extends="default_lottery">
+		<put-attribute name="title" value="竞彩篮球数据分析"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jcBasketball/dataAnalysis_History.jsp" />
+	</definition>
+	<definition name="jcBasketball/dataAnalysis_LetScore" extends="default_lottery">
+		<put-attribute name="title" value="竞彩篮球数据分析"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jcBasketball/dataAnalysis_LetScore.jsp" />
+	</definition>
+	<definition name="jcBasketball/dataAnalysis_OuPei" extends="default_lottery">
+		<put-attribute name="title" value="竞彩篮球数据分析"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jcBasketball/dataAnalysis_OuPei.jsp" />
+	</definition>
+	<definition name="jcBasketball/dataAnalysis_TotalScore" extends="default_lottery">
+		<put-attribute name="title" value="竞彩篮球数据分析"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jcBasketball/dataAnalysis_TotalScore.jsp" />
+	</definition>
+</tiles-definitions>

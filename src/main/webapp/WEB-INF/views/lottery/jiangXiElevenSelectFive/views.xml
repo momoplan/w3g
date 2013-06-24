@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+	"http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	<definition name="jiangXiElevenSelectFive/byOptionOneSelf" extends="default_lottery">
+		<put-attribute name="title" value="江西11选5任选一"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jiangXiElevenSelectFive/byOptionOneSelf.jsp" />
+	</definition>
+	<definition name="jiangXiElevenSelectFive/byOptionOneAuto" extends="default_lottery">
+		<put-attribute name="title" value="江西11选5任选一"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jiangXiElevenSelectFive/byOptionOneAuto.jsp" />
+	</definition>
+	<definition name="jiangXiElevenSelectFive/byOptionTwoSelf" extends="default_lottery">
+		<put-attribute name="title" value="江西11选5任选二"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jiangXiElevenSelectFive/byOptionTwoSelf.jsp" />
+	</definition>
+	<definition name="jiangXiElevenSelectFive/byOptionTwoAuto" extends="default_lottery">
+		<put-attribute name="title" value="江西11选5任选二"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jiangXiElevenSelectFive/byOptionTwoAuto.jsp" />
+	</definition>
+	<definition name="jiangXiElevenSelectFive/byOptionThreeSelf" extends="default_lottery">
+		<put-attribute name="title" value="江西11选5任选三"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jiangXiElevenSelectFive/byOptionThreeSelf.jsp" />
+	</definition>
+	<definition name="jiangXiElevenSelectFive/byOptionThreeAuto" extends="default_lottery">
+		<put-attribute name="title" value="江西11选5任选三"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jiangXiElevenSelectFive/byOptionThreeAuto.jsp" />
+	</definition>
+	<definition name="jiangXiElevenSelectFive/byOptionFourSelf" extends="default_lottery">
+		<put-attribute name="title" value="江西11选5任选四"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jiangXiElevenSelectFive/byOptionFourSelf.jsp" />
+	</definition>
+	<definition name="jiangXiElevenSelectFive/byOptionFourAuto" extends="default_lottery">
+		<put-attribute name="title" value="江西11选5任选四"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jiangXiElevenSelectFive/byOptionFourAuto.jsp" />
+	</definition>
+	<definition name="jiangXiElevenSelectFive/byOptionFiveSelf" extends="default_lottery">
+		<put-attribute name="title" value="江西11选5任选五"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jiangXiElevenSelectFive/byOptionFiveSelf.jsp" />
+	</definition>
+	<definition name="jiangXiElevenSelectFive/byOptionFiveAuto" extends="default_lottery">
+		<put-attribute name="title" value="江西11选5任选五"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jiangXiElevenSelectFive/byOptionFiveAuto.jsp" />
+	</definition>
+	<definition name="jiangXiElevenSelectFive/byOptionSixSelf" extends="default_lottery">
+		<put-attribute name="title" value="江西11选5任选六"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jiangXiElevenSelectFive/byOptionSixSelf.jsp" />
+	</definition>
+	<definition name="jiangXiElevenSelectFive/byOptionSixAuto" extends="default_lottery">
+		<put-attribute name="title" value="江西11选5任选六"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jiangXiElevenSelectFive/byOptionSixAuto.jsp" />
+	</definition>
+	<definition name="jiangXiElevenSelectFive/byOptionSevenSelf" extends="default_lottery">
+		<put-attribute name="title" value="江西11选5任选七"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jiangXiElevenSelectFive/byOptionSevenSelf.jsp" />
+	</definition>
+	<definition name="jiangXiElevenSelectFive/byOptionSevenAuto" extends="default_lottery">
+		<put-attribute name="title" value="江西11选5任选七"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jiangXiElevenSelectFive/byOptionSevenAuto.jsp" />
+	</definition>
+	<definition name="jiangXiElevenSelectFive/byOptionEightSelf" extends="default_lottery">
+		<put-attribute name="title" value="江西11选5任选八"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jiangXiElevenSelectFive/byOptionEightSelf.jsp" />
+	</definition>
+	<definition name="jiangXiElevenSelectFive/byOptionEightAuto" extends="default_lottery">
+		<put-attribute name="title" value="江西11选5任选八"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jiangXiElevenSelectFive/byOptionEightAuto.jsp" />
+	</definition>
+	<definition name="jiangXiElevenSelectFive/byOptionTwoDanTuo" extends="default_lottery">
+		<put-attribute name="title" value="江西11选5任选二胆拖"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jiangXiElevenSelectFive/byOptionTwoDanTuo.jsp" />
+	</definition>
+	<definition name="jiangXiElevenSelectFive/byOptionThreeDanTuo" extends="default_lottery">
+		<put-attribute name="title" value="江西11选5任选三胆拖"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jiangXiElevenSelectFive/byOptionThreeDanTuo.jsp" />
+	</definition>
+	<definition name="jiangXiElevenSelectFive/byOptionFourDanTuo" extends="default_lottery">
+		<put-attribute name="title" value="江西11选5任选四胆拖"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jiangXiElevenSelectFive/byOptionFourDanTuo.jsp" />
+	</definition>
+	<definition name="jiangXiElevenSelectFive/byOptionFiveDanTuo" extends="default_lottery">
+		<put-attribute name="title" value="江西11选5任选五胆拖"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jiangXiElevenSelectFive/byOptionFiveDanTuo.jsp" />
+	</definition>
+	<definition name="jiangXiElevenSelectFive/byOptionSixDanTuo" extends="default_lottery">
+		<put-attribute name="title" value="江西11选5任选六胆拖"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jiangXiElevenSelectFive/byOptionSixDanTuo.jsp" />
+	</definition>
+	<definition name="jiangXiElevenSelectFive/byOptionSevenDanTuo" extends="default_lottery">
+		<put-attribute name="title" value="江西11选5任选七胆拖"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jiangXiElevenSelectFive/byOptionSevenDanTuo.jsp" />
+	</definition>
+	<definition name="jiangXiElevenSelectFive/byOptionEightDanTuo" extends="default_lottery">
+		<put-attribute name="title" value="江西11选5任选八胆拖"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jiangXiElevenSelectFive/byOptionEightDanTuo.jsp" />
+	</definition>
+	<definition name="jiangXiElevenSelectFive/byForwardTwoGroupSelectDanTuo" extends="default_lottery">
+		<put-attribute name="title" value="江西11选5前二组选胆拖"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jiangXiElevenSelectFive/byForwardTwoGroupSelectDanTuo.jsp" />
+	</definition>
+	<definition name="jiangXiElevenSelectFive/byForwardThreeGroupSelectDanTuo" extends="default_lottery">
+		<put-attribute name="title" value="江西11选5前三组选胆拖"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jiangXiElevenSelectFive/byForwardThreeGroupSelectDanTuo.jsp" />
+	</definition>
+	<definition name="jiangXiElevenSelectFive/byForwardTwoGroupSelect" extends="default_lottery">
+		<put-attribute name="title" value="江西11选5前二组选"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jiangXiElevenSelectFive/byForwardTwoGroupSelect.jsp" />
+	</definition>
+	<definition name="jiangXiElevenSelectFive/byForwardThreeGroupSelect" extends="default_lottery">
+		<put-attribute name="title" value="江西11选5前三组选"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jiangXiElevenSelectFive/byForwardThreeGroupSelect.jsp" />
+	</definition>
+	<definition name="jiangXiElevenSelectFive/byForwardTwoDirectSelect" extends="default_lottery">
+		<put-attribute name="title" value="江西11选5前二直选"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jiangXiElevenSelectFive/byForwardTwoDirectSelect.jsp" />
+	</definition>
+	<definition name="jiangXiElevenSelectFive/byForwardThreeDirectSelect" extends="default_lottery">
+		<put-attribute name="title" value="江西11选5前三直选"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/views/lottery/jiangXiElevenSelectFive/byForwardThreeDirectSelect.jsp" />
+	</definition>
+</tiles-definitions>
